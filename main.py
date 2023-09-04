@@ -43,7 +43,7 @@ def go(config: DictConfig):
             os.path.join(root_path, "preprocess"),
             "main",
             parameters={
-                "input_artifact": "exercise_14/raw_data.parquet:latest",
+                "input_artifact": "raw_data.parquet:latest",
                 "artifact_name": "preprocessed_data.csv",
                 "artifact_type": "preprocessed_data",
                 "artifact_description": "Preprocessed Data"
@@ -58,7 +58,7 @@ def go(config: DictConfig):
             "main",
             parameters={
                 "reference_artifact": config["data"]["reference_dataset"],
-                "sample_artifact": config["data"]["reference_dataset"],
+                "sample_artifact": "preprocessed_data.csv:latest",
                 "ks_alpha": config["data"]["ks_alpha"]
             },
         )
@@ -69,7 +69,7 @@ def go(config: DictConfig):
             os.path.join(root_path, "segregate"),
             "main",
             parameters={
-                "input_artifact": config["data"]["reference_dataset"],
+                "input_artifact": "preprocessed_data.csv:latest",
                 "artifact_root": "segregated_data",
                 "artifact_type": "segreated_data",
                 "test_size": config["data"]["test_size"],
@@ -89,7 +89,7 @@ def go(config: DictConfig):
             os.path.join(root_path, "random_forest"),
             "main",
             parameters={
-                "train_data": "exercise_14/segregated_data_train.csv:latest",
+                "train_data": "segregated_data_train.csv:latest",
                 "model_config": model_config,
                 "export_artifact": config["random_forest_pipeline"]["export_artifact"],
                 "val_size": config["data"]["val_size"],
@@ -103,7 +103,7 @@ def go(config: DictConfig):
             os.path.join(root_path, "evaluate"),
             "main",
             parameters={
-                "model_export": f"exercise_14/{config['random_forest_pipeline']['export_artifact']}:latest",
+                "model_export": f"{config['random_forest_pipeline']['export_artifact']}:latest",
                 "test_data": "exercise_14/segregated_data_test.csv:latest",
             },
         )
