@@ -1,0 +1,15 @@
+artifact_uri: file:///home/aditya/genre_classification/mlruns/0/0d7acaff6d8642d68c098ac6be8069f1/artifacts
+end_time: 1693801781512
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0d7acaff6d8642d68c098ac6be8069f1
+run_name: suave-bat-421
+run_uuid: 0d7acaff6d8642d68c098ac6be8069f1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693801764312
+status: 3
+tags: []
+user_id: aditya

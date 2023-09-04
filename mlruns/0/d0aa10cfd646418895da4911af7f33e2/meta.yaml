@@ -1,0 +1,15 @@
+artifact_uri: file:///home/aditya/genre_classification/mlruns/0/d0aa10cfd646418895da4911af7f33e2/artifacts
+end_time: 1693802089648
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d0aa10cfd646418895da4911af7f33e2
+run_name: indecisive-gnu-550
+run_uuid: d0aa10cfd646418895da4911af7f33e2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693802064764
+status: 3
+tags: []
+user_id: aditya

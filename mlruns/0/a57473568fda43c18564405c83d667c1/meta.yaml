@@ -1,0 +1,15 @@
+artifact_uri: file:///home/aditya/genre_classification/mlruns/0/a57473568fda43c18564405c83d667c1/artifacts
+end_time: 1693802660936
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a57473568fda43c18564405c83d667c1
+run_name: monumental-duck-14
+run_uuid: a57473568fda43c18564405c83d667c1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693802292750
+status: 3
+tags: []
+user_id: aditya

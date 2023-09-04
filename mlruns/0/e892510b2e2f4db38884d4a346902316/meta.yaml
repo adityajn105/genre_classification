@@ -1,0 +1,15 @@
+artifact_uri: file:///home/aditya/genre_classification/mlruns/0/e892510b2e2f4db38884d4a346902316/artifacts
+end_time: 1693801552130
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e892510b2e2f4db38884d4a346902316
+run_name: clumsy-slug-21
+run_uuid: e892510b2e2f4db38884d4a346902316
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693801534668
+status: 3
+tags: []
+user_id: aditya

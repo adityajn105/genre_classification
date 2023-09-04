@@ -1,0 +1,15 @@
+artifact_uri: file:///home/aditya/genre_classification/mlruns/0/73941e0a5fb1464bb8a8aa299baf0127/artifacts
+end_time: 1693801435970
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 73941e0a5fb1464bb8a8aa299baf0127
+run_name: resilient-ram-288
+run_uuid: 73941e0a5fb1464bb8a8aa299baf0127
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693801178608
+status: 4
+tags: []
+user_id: aditya

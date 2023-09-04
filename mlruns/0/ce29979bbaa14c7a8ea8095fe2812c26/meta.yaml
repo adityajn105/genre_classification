@@ -1,0 +1,15 @@
+artifact_uri: file:///home/aditya/genre_classification/mlruns/0/ce29979bbaa14c7a8ea8095fe2812c26/artifacts
+end_time: 1693802118221
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ce29979bbaa14c7a8ea8095fe2812c26
+run_name: fun-snail-332
+run_uuid: ce29979bbaa14c7a8ea8095fe2812c26
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693802115749
+status: 4
+tags: []
+user_id: aditya

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/aditya/genre_classification/mlruns/0/a65549801daa42e4a7f58557810ba68a/artifacts
+end_time: 1693801689451
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a65549801daa42e4a7f58557810ba68a
+run_name: efficient-steed-982
+run_uuid: a65549801daa42e4a7f58557810ba68a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693801675293
+status: 4
+tags: []
+user_id: aditya
