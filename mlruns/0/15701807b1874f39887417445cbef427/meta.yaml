@@ -1,0 +1,15 @@
+artifact_uri: file:///home/aditya/genre_classification/mlruns/0/15701807b1874f39887417445cbef427/artifacts
+end_time: 1693804590569
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 15701807b1874f39887417445cbef427
+run_name: bedecked-squid-906
+run_uuid: 15701807b1874f39887417445cbef427
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693804485330
+status: 3
+tags: []
+user_id: aditya

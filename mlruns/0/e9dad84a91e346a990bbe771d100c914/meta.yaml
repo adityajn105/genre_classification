@@ -1,0 +1,15 @@
+artifact_uri: file:///home/aditya/genre_classification/mlruns/0/e9dad84a91e346a990bbe771d100c914/artifacts
+end_time: 1693804460549
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e9dad84a91e346a990bbe771d100c914
+run_name: monumental-ray-159
+run_uuid: e9dad84a91e346a990bbe771d100c914
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693804458082
+status: 4
+tags: []
+user_id: aditya

@@ -1,0 +1,183 @@
+2023-09-03 22:15:47,643 INFO    MainThread:28041 [internal.py:wandb_internal():90] W&B internal server running at pid: 28041, started at: 2023-09-03 22:15:47.643168
+2023-09-03 22:15:47,645 INFO    WriterThread:28041 [datastore.py:open_for_write():75] open: /home/aditya/genre_classification/random_forest/wandb/run-20230903_221547-3bfniya2/run-3bfniya2.wandb
+2023-09-03 22:15:47,645 DEBUG   SenderThread:28041 [sender.py:send():232] send: header
+2023-09-03 22:15:47,645 DEBUG   SenderThread:28041 [sender.py:send():232] send: run
+2023-09-03 22:15:47,949 DEBUG   HandlerThread:28041 [handler.py:handle_request():141] handle_request: check_version
+2023-09-03 22:15:47,957 INFO    SenderThread:28041 [dir_watcher.py:__init__():197] watching files in: /home/aditya/genre_classification/random_forest/wandb/run-20230903_221547-3bfniya2/files
+2023-09-03 22:15:47,957 INFO    SenderThread:28041 [sender.py:_start_run_threads():811] run started: 3bfniya2 with start time 1693804547
+2023-09-03 22:15:47,957 DEBUG   SenderThread:28041 [sender.py:send():232] send: summary
+2023-09-03 22:15:47,958 INFO    SenderThread:28041 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2023-09-03 22:15:47,958 DEBUG   SenderThread:28041 [sender.py:send_request():246] send_request: check_version
+2023-09-03 22:15:48,099 DEBUG   HandlerThread:28041 [handler.py:handle_request():141] handle_request: run_start
+2023-09-03 22:15:48,105 DEBUG   HandlerThread:28041 [meta.py:__init__():35] meta init
+2023-09-03 22:15:48,105 DEBUG   HandlerThread:28041 [meta.py:__init__():49] meta init done
+2023-09-03 22:15:48,105 DEBUG   HandlerThread:28041 [meta.py:probe():209] probe
+2023-09-03 22:15:48,115 DEBUG   HandlerThread:28041 [meta.py:_setup_git():199] setup git
+2023-09-03 22:15:48,125 DEBUG   HandlerThread:28041 [meta.py:_setup_git():206] setup git done
+2023-09-03 22:15:48,125 DEBUG   HandlerThread:28041 [meta.py:_save_pip():53] save pip
+2023-09-03 22:15:48,126 DEBUG   HandlerThread:28041 [meta.py:_save_pip():67] save pip done
+2023-09-03 22:15:48,126 DEBUG   HandlerThread:28041 [meta.py:_save_conda():74] save conda
+2023-09-03 22:15:48,959 INFO    Thread-7  :28041 [dir_watcher.py:_on_file_created():244] file/dir created: /home/aditya/genre_classification/random_forest/wandb/run-20230903_221547-3bfniya2/files/wandb-summary.json
+2023-09-03 22:15:48,959 INFO    Thread-7  :28041 [dir_watcher.py:_on_file_created():244] file/dir created: /home/aditya/genre_classification/random_forest/wandb/run-20230903_221547-3bfniya2/files/conda-environment.yaml
+2023-09-03 22:15:48,959 INFO    Thread-7  :28041 [dir_watcher.py:_on_file_created():244] file/dir created: /home/aditya/genre_classification/random_forest/wandb/run-20230903_221547-3bfniya2/files/requirements.txt
+2023-09-03 22:15:49,401 DEBUG   HandlerThread:28041 [meta.py:_save_conda():84] save conda done
+2023-09-03 22:15:49,401 DEBUG   HandlerThread:28041 [meta.py:probe():247] probe done
+2023-09-03 22:15:49,404 DEBUG   SenderThread:28041 [sender.py:send():232] send: files
+2023-09-03 22:15:49,404 INFO    SenderThread:28041 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2023-09-03 22:15:49,408 DEBUG   HandlerThread:28041 [handler.py:handle_request():141] handle_request: stop_status
+2023-09-03 22:15:49,408 DEBUG   SenderThread:28041 [sender.py:send_request():246] send_request: stop_status
+2023-09-03 22:15:49,569 DEBUG   SenderThread:28041 [sender.py:send():232] send: telemetry
+2023-09-03 22:15:49,959 INFO    Thread-7  :28041 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/aditya/genre_classification/random_forest/wandb/run-20230903_221547-3bfniya2/files/conda-environment.yaml
+2023-09-03 22:15:49,964 INFO    Thread-11 :28041 [upload_job.py:push():132] Uploaded file /tmp/tmprpsqmn0lwandb/226wbuuw-wandb-metadata.json
+2023-09-03 22:15:49,965 INFO    Thread-7  :28041 [dir_watcher.py:_on_file_created():244] file/dir created: /home/aditya/genre_classification/random_forest/wandb/run-20230903_221547-3bfniya2/files/output.log
+2023-09-03 22:15:49,965 INFO    Thread-7  :28041 [dir_watcher.py:_on_file_created():244] file/dir created: /home/aditya/genre_classification/random_forest/wandb/run-20230903_221547-3bfniya2/files/wandb-metadata.json
+2023-09-03 22:15:51,007 DEBUG   SenderThread:28041 [sender.py:send():232] send: config
+2023-09-03 22:15:51,958 INFO    Thread-7  :28041 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/aditya/genre_classification/random_forest/wandb/run-20230903_221547-3bfniya2/files/output.log
+2023-09-03 22:15:53,958 INFO    Thread-7  :28041 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/aditya/genre_classification/random_forest/wandb/run-20230903_221547-3bfniya2/files/output.log
+2023-09-03 22:15:56,360 DEBUG   SenderThread:28041 [sender.py:send():232] send: summary
+2023-09-03 22:15:56,360 INFO    SenderThread:28041 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2023-09-03 22:15:56,585 DEBUG   HandlerThread:28041 [handler.py:handle_request():141] handle_request: log_artifact
+2023-09-03 22:15:56,585 DEBUG   SenderThread:28041 [sender.py:send_request():246] send_request: log_artifact
+2023-09-03 22:15:56,959 INFO    Thread-7  :28041 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/aditya/genre_classification/random_forest/wandb/run-20230903_221547-3bfniya2/files/wandb-summary.json
+2023-09-03 22:15:57,960 INFO    Thread-7  :28041 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/aditya/genre_classification/random_forest/wandb/run-20230903_221547-3bfniya2/files/output.log
+2023-09-03 22:15:57,997 INFO    Thread-14 :28041 [upload_job.py:push():87] Skipped uploading /home/aditya/.cache/wandb/artifacts/obj/md5/da/5fd564dd26d074f574dce5724220b9
+2023-09-03 22:15:57,998 INFO    Thread-15 :28041 [upload_job.py:push():87] Skipped uploading /home/aditya/.cache/wandb/artifacts/obj/md5/99/0b827317c239cce1734f4caa28ec12
+2023-09-03 22:15:58,358 INFO    Thread-13 :28041 [upload_job.py:push():90] Uploaded file /home/aditya/.cache/wandb/artifacts/obj/md5/5a/cabd4e85075fa5bf473738f75f207c
+2023-09-03 22:16:01,045 INFO    Thread-16 :28041 [upload_job.py:push():90] Uploaded file /home/aditya/.cache/wandb/artifacts/obj/md5/a1/c3610acf43f183abcdebc4b0db586d
+2023-09-03 22:16:02,301 INFO    SenderThread:28041 [sender.py:send_request_log_artifact():1005] logged artifact model_export - {'id': 'QXJ0aWZhY3Q6NTU4NjU5Mzc3', 'digest': 'dd0937ba524b0cb63a6362e7894617f4', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjk0ODI4NzY5', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NTU4NjQxMzgw', 'versionIndex': 0}}, 'version': 'latest'}
+2023-09-03 22:16:04,573 DEBUG   HandlerThread:28041 [handler.py:handle_request():141] handle_request: stop_status
+2023-09-03 22:16:04,573 DEBUG   SenderThread:28041 [sender.py:send_request():246] send_request: stop_status
+2023-09-03 22:16:04,712 DEBUG   HandlerThread:28041 [handler.py:handle_request():141] handle_request: partial_history
+2023-09-03 22:16:04,780 DEBUG   SenderThread:28041 [sender.py:send():232] send: files
+2023-09-03 22:16:04,781 INFO    SenderThread:28041 [sender.py:_save_file():948] saving file media/images/feature_importance_0_15d7002f969521dc99db.png with policy now
+2023-09-03 22:16:04,781 DEBUG   SenderThread:28041 [sender.py:send():232] send: files
+2023-09-03 22:16:04,782 INFO    SenderThread:28041 [sender.py:_save_file():948] saving file media/images/confusion_matrix_0_2526a5a76a376f659917.png with policy now
+2023-09-03 22:16:04,782 DEBUG   SenderThread:28041 [sender.py:send():232] send: history
+2023-09-03 22:16:04,782 DEBUG   SenderThread:28041 [sender.py:send():232] send: summary
+2023-09-03 22:16:04,784 INFO    SenderThread:28041 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2023-09-03 22:16:04,784 DEBUG   SenderThread:28041 [sender.py:send():232] send: telemetry
+2023-09-03 22:16:04,968 INFO    Thread-7  :28041 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/aditya/genre_classification/random_forest/wandb/run-20230903_221547-3bfniya2/files/wandb-summary.json
+2023-09-03 22:16:04,969 INFO    Thread-7  :28041 [dir_watcher.py:_on_file_created():244] file/dir created: /home/aditya/genre_classification/random_forest/wandb/run-20230903_221547-3bfniya2/files/media/images/feature_importance_0_15d7002f969521dc99db.png
+2023-09-03 22:16:04,969 INFO    Thread-7  :28041 [dir_watcher.py:_on_file_created():244] file/dir created: /home/aditya/genre_classification/random_forest/wandb/run-20230903_221547-3bfniya2/files/media/images/confusion_matrix_0_2526a5a76a376f659917.png
+2023-09-03 22:16:04,970 INFO    Thread-7  :28041 [dir_watcher.py:_on_file_created():244] file/dir created: /home/aditya/genre_classification/random_forest/wandb/run-20230903_221547-3bfniya2/files/media
+2023-09-03 22:16:04,970 INFO    Thread-7  :28041 [dir_watcher.py:_on_file_created():244] file/dir created: /home/aditya/genre_classification/random_forest/wandb/run-20230903_221547-3bfniya2/files/media/images
+2023-09-03 22:16:05,348 INFO    Thread-18 :28041 [upload_job.py:push():132] Uploaded file /tmp/tmprpsqmn0lwandb/298nrsqk-media/images/confusion_matrix_0_2526a5a76a376f659917.png
+2023-09-03 22:16:05,350 INFO    Thread-17 :28041 [upload_job.py:push():132] Uploaded file /tmp/tmprpsqmn0lwandb/29l1ev9r-media/images/feature_importance_0_15d7002f969521dc99db.png
+2023-09-03 22:16:06,945 DEBUG   HandlerThread:28041 [handler.py:handle_request():141] handle_request: poll_exit
+2023-09-03 22:16:06,945 DEBUG   SenderThread:28041 [sender.py:send():232] send: exit
+2023-09-03 22:16:06,946 INFO    SenderThread:28041 [sender.py:send_exit():368] handling exit code: 0
+2023-09-03 22:16:06,946 INFO    SenderThread:28041 [sender.py:send_exit():370] handling runtime: 18
+2023-09-03 22:16:06,950 INFO    SenderThread:28041 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2023-09-03 22:16:06,950 INFO    SenderThread:28041 [sender.py:send_exit():376] send defer
+2023-09-03 22:16:06,950 DEBUG   SenderThread:28041 [sender.py:send_request():246] send_request: poll_exit
+2023-09-03 22:16:06,951 DEBUG   HandlerThread:28041 [handler.py:handle_request():141] handle_request: defer
+2023-09-03 22:16:06,951 INFO    HandlerThread:28041 [handler.py:handle_request_defer():164] handle defer: 0
+2023-09-03 22:16:06,952 DEBUG   SenderThread:28041 [sender.py:send_request():246] send_request: defer
+2023-09-03 22:16:06,952 INFO    SenderThread:28041 [sender.py:send_request_defer():385] handle sender defer: 0
+2023-09-03 22:16:06,952 INFO    SenderThread:28041 [sender.py:transition_state():389] send defer: 1
+2023-09-03 22:16:06,953 DEBUG   HandlerThread:28041 [handler.py:handle_request():141] handle_request: defer
+2023-09-03 22:16:06,953 INFO    HandlerThread:28041 [handler.py:handle_request_defer():164] handle defer: 1
+2023-09-03 22:16:06,969 INFO    Thread-7  :28041 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/aditya/genre_classification/random_forest/wandb/run-20230903_221547-3bfniya2/files/wandb-summary.json
+2023-09-03 22:16:06,970 INFO    Thread-7  :28041 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/aditya/genre_classification/random_forest/wandb/run-20230903_221547-3bfniya2/files/output.log
+2023-09-03 22:16:06,999 DEBUG   SenderThread:28041 [sender.py:send_request():246] send_request: defer
+2023-09-03 22:16:06,999 INFO    SenderThread:28041 [sender.py:send_request_defer():385] handle sender defer: 1
+2023-09-03 22:16:06,999 INFO    SenderThread:28041 [sender.py:transition_state():389] send defer: 2
+2023-09-03 22:16:06,999 DEBUG   SenderThread:28041 [sender.py:send():232] send: stats
+2023-09-03 22:16:06,999 DEBUG   HandlerThread:28041 [handler.py:handle_request():141] handle_request: defer
+2023-09-03 22:16:06,999 INFO    HandlerThread:28041 [handler.py:handle_request_defer():164] handle defer: 2
+2023-09-03 22:16:06,999 DEBUG   SenderThread:28041 [sender.py:send_request():246] send_request: defer
+2023-09-03 22:16:06,999 INFO    SenderThread:28041 [sender.py:send_request_defer():385] handle sender defer: 2
+2023-09-03 22:16:07,000 INFO    SenderThread:28041 [sender.py:transition_state():389] send defer: 3
+2023-09-03 22:16:07,000 DEBUG   HandlerThread:28041 [handler.py:handle_request():141] handle_request: defer
+2023-09-03 22:16:07,000 INFO    HandlerThread:28041 [handler.py:handle_request_defer():164] handle defer: 3
+2023-09-03 22:16:07,000 DEBUG   SenderThread:28041 [sender.py:send_request():246] send_request: defer
+2023-09-03 22:16:07,000 INFO    SenderThread:28041 [sender.py:send_request_defer():385] handle sender defer: 3
+2023-09-03 22:16:07,000 INFO    SenderThread:28041 [sender.py:transition_state():389] send defer: 4
+2023-09-03 22:16:07,000 DEBUG   HandlerThread:28041 [handler.py:handle_request():141] handle_request: defer
+2023-09-03 22:16:07,000 INFO    HandlerThread:28041 [handler.py:handle_request_defer():164] handle defer: 4
+2023-09-03 22:16:07,001 DEBUG   SenderThread:28041 [sender.py:send():232] send: summary
+2023-09-03 22:16:07,001 INFO    SenderThread:28041 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2023-09-03 22:16:07,001 DEBUG   SenderThread:28041 [sender.py:send_request():246] send_request: defer
+2023-09-03 22:16:07,001 INFO    SenderThread:28041 [sender.py:send_request_defer():385] handle sender defer: 4
+2023-09-03 22:16:07,001 INFO    SenderThread:28041 [sender.py:transition_state():389] send defer: 5
+2023-09-03 22:16:07,001 DEBUG   HandlerThread:28041 [handler.py:handle_request():141] handle_request: defer
+2023-09-03 22:16:07,001 INFO    HandlerThread:28041 [handler.py:handle_request_defer():164] handle defer: 5
+2023-09-03 22:16:07,002 DEBUG   SenderThread:28041 [sender.py:send_request():246] send_request: defer
+2023-09-03 22:16:07,002 INFO    SenderThread:28041 [sender.py:send_request_defer():385] handle sender defer: 5
+2023-09-03 22:16:07,052 DEBUG   HandlerThread:28041 [handler.py:handle_request():141] handle_request: poll_exit
+2023-09-03 22:16:07,212 INFO    SenderThread:28041 [sender.py:transition_state():389] send defer: 6
+2023-09-03 22:16:07,212 DEBUG   SenderThread:28041 [sender.py:send_request():246] send_request: poll_exit
+2023-09-03 22:16:07,212 DEBUG   HandlerThread:28041 [handler.py:handle_request():141] handle_request: defer
+2023-09-03 22:16:07,212 INFO    HandlerThread:28041 [handler.py:handle_request_defer():164] handle defer: 6
+2023-09-03 22:16:07,212 DEBUG   SenderThread:28041 [sender.py:send_request():246] send_request: defer
+2023-09-03 22:16:07,212 INFO    SenderThread:28041 [sender.py:send_request_defer():385] handle sender defer: 6
+2023-09-03 22:16:07,212 INFO    SenderThread:28041 [dir_watcher.py:finish():312] shutting down directory watcher
+2023-09-03 22:16:07,314 DEBUG   HandlerThread:28041 [handler.py:handle_request():141] handle_request: poll_exit
+2023-09-03 22:16:07,970 INFO    Thread-7  :28041 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/aditya/genre_classification/random_forest/wandb/run-20230903_221547-3bfniya2/files/wandb-summary.json
+2023-09-03 22:16:07,971 INFO    SenderThread:28041 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/aditya/genre_classification/random_forest/wandb/run-20230903_221547-3bfniya2/files/config.yaml
+2023-09-03 22:16:07,972 INFO    SenderThread:28041 [dir_watcher.py:finish():342] scan: /home/aditya/genre_classification/random_forest/wandb/run-20230903_221547-3bfniya2/files
+2023-09-03 22:16:07,973 INFO    SenderThread:28041 [dir_watcher.py:finish():356] scan save: /home/aditya/genre_classification/random_forest/wandb/run-20230903_221547-3bfniya2/files/conda-environment.yaml conda-environment.yaml
+2023-09-03 22:16:07,973 INFO    SenderThread:28041 [dir_watcher.py:finish():356] scan save: /home/aditya/genre_classification/random_forest/wandb/run-20230903_221547-3bfniya2/files/config.yaml config.yaml
+2023-09-03 22:16:07,973 INFO    SenderThread:28041 [dir_watcher.py:finish():356] scan save: /home/aditya/genre_classification/random_forest/wandb/run-20230903_221547-3bfniya2/files/output.log output.log
+2023-09-03 22:16:07,979 INFO    SenderThread:28041 [dir_watcher.py:finish():356] scan save: /home/aditya/genre_classification/random_forest/wandb/run-20230903_221547-3bfniya2/files/wandb-summary.json wandb-summary.json
+2023-09-03 22:16:07,979 INFO    SenderThread:28041 [dir_watcher.py:finish():356] scan save: /home/aditya/genre_classification/random_forest/wandb/run-20230903_221547-3bfniya2/files/wandb-metadata.json wandb-metadata.json
+2023-09-03 22:16:07,979 INFO    SenderThread:28041 [dir_watcher.py:finish():356] scan save: /home/aditya/genre_classification/random_forest/wandb/run-20230903_221547-3bfniya2/files/requirements.txt requirements.txt
+2023-09-03 22:16:07,982 INFO    SenderThread:28041 [dir_watcher.py:finish():356] scan save: /home/aditya/genre_classification/random_forest/wandb/run-20230903_221547-3bfniya2/files/media/images/feature_importance_0_15d7002f969521dc99db.png media/images/feature_importance_0_15d7002f969521dc99db.png
+2023-09-03 22:16:07,982 INFO    SenderThread:28041 [dir_watcher.py:finish():356] scan save: /home/aditya/genre_classification/random_forest/wandb/run-20230903_221547-3bfniya2/files/media/images/confusion_matrix_0_2526a5a76a376f659917.png media/images/confusion_matrix_0_2526a5a76a376f659917.png
+2023-09-03 22:16:07,982 INFO    SenderThread:28041 [sender.py:transition_state():389] send defer: 7
+2023-09-03 22:16:07,982 DEBUG   SenderThread:28041 [sender.py:send_request():246] send_request: poll_exit
+2023-09-03 22:16:07,988 DEBUG   HandlerThread:28041 [handler.py:handle_request():141] handle_request: defer
+2023-09-03 22:16:07,988 INFO    HandlerThread:28041 [handler.py:handle_request_defer():164] handle defer: 7
+2023-09-03 22:16:07,988 DEBUG   SenderThread:28041 [sender.py:send_request():246] send_request: defer
+2023-09-03 22:16:07,988 INFO    SenderThread:28041 [sender.py:send_request_defer():385] handle sender defer: 7
+2023-09-03 22:16:07,988 INFO    SenderThread:28041 [file_pusher.py:finish():145] shutting down file pusher
+2023-09-03 22:16:08,084 DEBUG   HandlerThread:28041 [handler.py:handle_request():141] handle_request: poll_exit
+2023-09-03 22:16:08,085 DEBUG   SenderThread:28041 [sender.py:send_request():246] send_request: poll_exit
+2023-09-03 22:16:08,200 DEBUG   HandlerThread:28041 [handler.py:handle_request():141] handle_request: poll_exit
+2023-09-03 22:16:08,210 DEBUG   SenderThread:28041 [sender.py:send_request():246] send_request: poll_exit
+2023-09-03 22:16:08,313 DEBUG   HandlerThread:28041 [handler.py:handle_request():141] handle_request: poll_exit
+2023-09-03 22:16:08,314 DEBUG   SenderThread:28041 [sender.py:send_request():246] send_request: poll_exit
+2023-09-03 22:16:08,416 DEBUG   HandlerThread:28041 [handler.py:handle_request():141] handle_request: poll_exit
+2023-09-03 22:16:08,417 DEBUG   SenderThread:28041 [sender.py:send_request():246] send_request: poll_exit
+2023-09-03 22:16:08,520 DEBUG   HandlerThread:28041 [handler.py:handle_request():141] handle_request: poll_exit
+2023-09-03 22:16:08,520 DEBUG   SenderThread:28041 [sender.py:send_request():246] send_request: poll_exit
+2023-09-03 22:16:08,624 INFO    Thread-20 :28041 [upload_job.py:push():132] Uploaded file /home/aditya/genre_classification/random_forest/wandb/run-20230903_221547-3bfniya2/files/config.yaml
+2023-09-03 22:16:08,626 DEBUG   HandlerThread:28041 [handler.py:handle_request():141] handle_request: poll_exit
+2023-09-03 22:16:08,628 INFO    Thread-23 :28041 [upload_job.py:push():132] Uploaded file /home/aditya/genre_classification/random_forest/wandb/run-20230903_221547-3bfniya2/files/requirements.txt
+2023-09-03 22:16:08,632 INFO    Thread-22 :28041 [upload_job.py:push():132] Uploaded file /home/aditya/genre_classification/random_forest/wandb/run-20230903_221547-3bfniya2/files/wandb-summary.json
+2023-09-03 22:16:08,637 INFO    Thread-21 :28041 [upload_job.py:push():132] Uploaded file /home/aditya/genre_classification/random_forest/wandb/run-20230903_221547-3bfniya2/files/output.log
+2023-09-03 22:16:08,640 INFO    Thread-19 :28041 [upload_job.py:push():132] Uploaded file /home/aditya/genre_classification/random_forest/wandb/run-20230903_221547-3bfniya2/files/conda-environment.yaml
+2023-09-03 22:16:08,641 DEBUG   SenderThread:28041 [sender.py:send_request():246] send_request: poll_exit
+2023-09-03 22:16:08,744 DEBUG   HandlerThread:28041 [handler.py:handle_request():141] handle_request: poll_exit
+2023-09-03 22:16:08,745 DEBUG   SenderThread:28041 [sender.py:send_request():246] send_request: poll_exit
+2023-09-03 22:16:08,842 INFO    Thread-6  :28041 [sender.py:transition_state():389] send defer: 8
+2023-09-03 22:16:08,844 DEBUG   HandlerThread:28041 [handler.py:handle_request():141] handle_request: defer
+2023-09-03 22:16:08,844 INFO    HandlerThread:28041 [handler.py:handle_request_defer():164] handle defer: 8
+2023-09-03 22:16:08,844 DEBUG   SenderThread:28041 [sender.py:send_request():246] send_request: defer
+2023-09-03 22:16:08,844 INFO    SenderThread:28041 [sender.py:send_request_defer():385] handle sender defer: 8
+2023-09-03 22:16:08,848 DEBUG   HandlerThread:28041 [handler.py:handle_request():141] handle_request: poll_exit
+2023-09-03 22:16:09,124 INFO    SenderThread:28041 [sender.py:transition_state():389] send defer: 9
+2023-09-03 22:16:09,124 DEBUG   SenderThread:28041 [sender.py:send_request():246] send_request: poll_exit
+2023-09-03 22:16:09,125 DEBUG   HandlerThread:28041 [handler.py:handle_request():141] handle_request: defer
+2023-09-03 22:16:09,125 INFO    HandlerThread:28041 [handler.py:handle_request_defer():164] handle defer: 9
+2023-09-03 22:16:09,126 DEBUG   SenderThread:28041 [sender.py:send_request():246] send_request: defer
+2023-09-03 22:16:09,126 INFO    SenderThread:28041 [sender.py:send_request_defer():385] handle sender defer: 9
+2023-09-03 22:16:09,126 INFO    SenderThread:28041 [sender.py:transition_state():389] send defer: 10
+2023-09-03 22:16:09,127 DEBUG   HandlerThread:28041 [handler.py:handle_request():141] handle_request: defer
+2023-09-03 22:16:09,128 INFO    HandlerThread:28041 [handler.py:handle_request_defer():164] handle defer: 10
+2023-09-03 22:16:09,128 DEBUG   SenderThread:28041 [sender.py:send():232] send: final
+2023-09-03 22:16:09,128 DEBUG   SenderThread:28041 [sender.py:send():232] send: footer
+2023-09-03 22:16:09,128 DEBUG   SenderThread:28041 [sender.py:send_request():246] send_request: defer
+2023-09-03 22:16:09,129 INFO    SenderThread:28041 [sender.py:send_request_defer():385] handle sender defer: 10
+2023-09-03 22:16:09,227 DEBUG   HandlerThread:28041 [handler.py:handle_request():141] handle_request: poll_exit
+2023-09-03 22:16:09,227 DEBUG   SenderThread:28041 [sender.py:send_request():246] send_request: poll_exit
+2023-09-03 22:16:09,228 INFO    SenderThread:28041 [file_pusher.py:join():150] waiting for file pusher
+2023-09-03 22:16:09,848 DEBUG   HandlerThread:28041 [handler.py:handle_request():141] handle_request: sampled_history
+2023-09-03 22:16:09,850 DEBUG   HandlerThread:28041 [handler.py:handle_request():141] handle_request: get_summary
+2023-09-03 22:16:09,852 DEBUG   HandlerThread:28041 [handler.py:handle_request():141] handle_request: shutdown
+2023-09-03 22:16:09,852 INFO    HandlerThread:28041 [handler.py:finish():806] shutting down handler
+2023-09-03 22:16:10,129 INFO    WriterThread:28041 [datastore.py:close():279] close: /home/aditya/genre_classification/random_forest/wandb/run-20230903_221547-3bfniya2/run-3bfniya2.wandb
+2023-09-03 22:16:10,746 INFO    SenderThread:28041 [sender.py:finish():1110] shutting down sender
+2023-09-03 22:16:10,747 INFO    SenderThread:28041 [file_pusher.py:finish():145] shutting down file pusher
+2023-09-03 22:16:10,748 INFO    SenderThread:28041 [file_pusher.py:join():150] waiting for file pusher
+2023-09-03 22:16:10,749 INFO    MainThread:28041 [internal.py:handle_exit():80] Internal process exited

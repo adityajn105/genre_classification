@@ -1,0 +1,37 @@
+{
+    "os": "Linux-6.2.0-26-generic-x86_64-with-glibc2.10",
+    "python": "3.8.17",
+    "heartbeatAt": "2023-09-04T05:15:48.105455",
+    "startedAt": "2023-09-04T05:15:47.225548",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1650 Ti",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "--train_data",
+        "segregated_data_train.csv:latest",
+        "--model_config",
+        "/home/aditya/genre_classification/outputs/2023-09-03/22-14-47/random_forest_config.yml",
+        "--export_artifact",
+        "model_export",
+        "--random_seed",
+        "42",
+        "--val_size",
+        "0.3",
+        "--stratify",
+        "genre"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "random_forest/run.py",
+    "git": {
+        "remote": "git@github.com:adityajn105/genre_classification.git",
+        "commit": "df4450abde5f796d9b082338ea180c7c38fe25e5"
+    },
+    "email": "adityajn105@gmail.com",
+    "root": "/home/aditya/genre_classification",
+    "host": "AdityaJain",
+    "username": "aditya",
+    "executable": "/opt/anaconda3/envs/mlflow-0b0568fed7b2796c0bc20e03bdd63a2a3ad4de9a/bin/python"
+}

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/aditya/genre_classification/mlruns/0/65dcae544b3b47659cd23daa59f3d21a/artifacts
+end_time: 1693804376971
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 65dcae544b3b47659cd23daa59f3d21a
+run_name: zealous-panda-621
+run_uuid: 65dcae544b3b47659cd23daa59f3d21a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693804374528
+status: 4
+tags: []
+user_id: aditya

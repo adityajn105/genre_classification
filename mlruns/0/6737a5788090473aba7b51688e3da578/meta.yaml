@@ -1,0 +1,15 @@
+artifact_uri: file:///home/aditya/genre_classification/mlruns/0/6737a5788090473aba7b51688e3da578/artifacts
+end_time: 1693804282394
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6737a5788090473aba7b51688e3da578
+run_name: omniscient-fox-333
+run_uuid: 6737a5788090473aba7b51688e3da578
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693804279941
+status: 4
+tags: []
+user_id: aditya
