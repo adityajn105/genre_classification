@@ -1,0 +1,15 @@
+artifact_uri: file:///home/aditya/genre_classification/mlruns/0/70ec8db6cc9e4ca3883c8500f7eaa791/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 70ec8db6cc9e4ca3883c8500f7eaa791
+run_uuid: 70ec8db6cc9e4ca3883c8500f7eaa791
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693804880688
+status: 1
+tags: []
+user_id: aditya

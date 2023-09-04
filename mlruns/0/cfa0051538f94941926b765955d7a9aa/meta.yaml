@@ -1,0 +1,15 @@
+artifact_uri: file:///home/aditya/genre_classification/mlruns/0/cfa0051538f94941926b765955d7a9aa/artifacts
+end_time: 1693804885339
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cfa0051538f94941926b765955d7a9aa
+run_name: sedate-elk-615
+run_uuid: cfa0051538f94941926b765955d7a9aa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693804878188
+status: 4
+tags: []
+user_id: aditya
